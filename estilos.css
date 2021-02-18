@@ -59,14 +59,13 @@ a:hover {
 .title {
   padding: 3em;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   background: rgb(108, 255, 255);
   background: radial-gradient(
     circle,
     rgba(108, 255, 255, 1) 1%,
     rgba(243, 86, 242, 1) 100%
   );
-  /* background-image: url("imagenes/gba1.jpg"); */
 }
 
 /* BUTTON */
