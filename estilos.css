@@ -172,7 +172,9 @@ a:hover {
     font-size: 3em;
   }
   .title img {
-    margin-top: 2em;
+    margin-top: 1.7em;
+    width: 70%;
+    height: 50vh;
   }
   .title .myButton {
   }
