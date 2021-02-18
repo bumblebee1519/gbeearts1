@@ -9,13 +9,15 @@ a {
   font-family: Montserrat, sans-serif;
   font-weight: bold;
   font-size: 16px;
-  /* color: #ff00ff; */
   color: white;
   text-decoration: none;
 }
 .logo {
   height: 15vh;
   cursor: pointer;
+}
+.img1 {
+  height: 15vh;
 }
 header {
   background-color: #d9d9d9;
@@ -37,11 +39,7 @@ li,
 a {
   transition: all 0.3s ease 0s;
 }
-/* .nav__links,
-li,
-a:hover {
-  color: #9dfafb;
-} */
+
 .title img {
   width: 50%;
   height: 50vh;
@@ -52,14 +50,13 @@ a:hover {
   font-size: 4em;
   margin-top: 1em;
   text-align: center;
-  /* font-family: Montserrat, sans-serif; */
   font-family: "Bangers", cursive;
   color: white;
 }
 .title {
   padding: 3em;
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   background: rgb(108, 255, 255);
   background: radial-gradient(
     circle,
@@ -131,6 +128,8 @@ a:hover {
   color: #d9d9d9;
   margin-top: 1em;
 }
+
+/* FOOTER */
 .footer {
   width: 100vw;
   height: 150px;
